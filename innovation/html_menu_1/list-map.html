@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Find easily a doctor and book online an appointment">
+	<meta name="author" content="Ansonika">
+	<title>FINDOCTOR - Find easily a doctor and book online an appointment</title>
+
+	<!-- Favicons-->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+
+	<!-- BASE CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/menu.css" rel="stylesheet">
+	<link href="css/vendors.css" rel="stylesheet">
+	<link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet">
+
+	<!-- YOUR CUSTOM CSS -->
+	<link href="css/custom.css" rel="stylesheet">
+	
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+	<div id="preloader" class="Fixed">
+		<div data-loader="circle-side"></div>
+	</div>
+	<!-- /Preload-->
+	
+	<div id="page">		
+	<header class="header_map Fixed">	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-3 col-6">
+					<div id="logo">
+						<a href="index.html" title="Findoctor"><img src="img/logo.png" data-retina="true" alt="" width="163" height="36"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /container -->
+	</header>
+	<!-- /header -->
+
+	<div class="container-fluid full-height">
+		<div class="row row-height">
+			<div class="col-lg-5 content-left">
+				<form>
+					<div class="search_bar_wrapper">
+						<div class="search_bar_list">
+							<input type="text" class="form-control" placeholder="Ex. Branch Name, advisers...">
+							<input type="submit" value="Search">
+						</div>
+					</div>
+					<div class="filters_listing map_listing">
+						<ul class="clearfix">
+							<li>
+								<h6>Type</h6>
+								<div class="switch-field">
+									<input type="radio" id="doctors" name="type_patient" value="doctors">
+									<label for="doctors">Doctors</label>
+									<input type="radio" id="advisers" name="type_patient" value="advisers">
+									<label for="advisers">Advisers</label>
+								</div>
+							</li>
+							<li>
+								<h6>Sort by</h6>
+								<select name="orderby" class="selectbox">
+								<option value="Closest">Closest</option>
+								<option value="Best rated">Best rated</option>
+								</select>
+							</li>
+						</ul>
+					</div>
+					<!-- /filters -->
+				</form>
+
+				<div class="strip_list">
+					<a href="#0" class="wish_bt"></a>
+					<figure>
+						<a href="detail-page-2.html"><img src="img/doctor_listing_1.jpg" alt=""></a>
+					</figure>
+					<small>Psicologist</small>
+					<h3>Dr. Butcher</h3>
+					<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cuodo....</p>
+					<span class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></span>
+					<a href="badges.html" data-toggle="tooltip" data-placement="top" data-original-title="Badge Level" class="badge_list_1"><img src="img/badges/badge_1.svg" width="15" height="15" alt=""></a>
+					<ul>
+						<li><a href="#0" onclick="onHtmlClick('Doctors', 0)" class="btn_listing">View on Map</a></li>
+						<li><a href="javascript:showRoadMap(0);">Directions</a></li>
+						<li><a href="detail-page-2.html">Book now</a></li>
+					</ul>
+				</div>
+				<!-- /strip_list -->
+
+				<div class="strip_list">
+					<a href="#0" class="wish_bt"></a>
+					<figure>
+						<a href="detail-page-2.html"><img src="img/doctor_listing_2.jpg" alt=""></a>
+					</figure>
+					<small>Pediatrician</small>
+					<h3>Dr. Valentine</h3>
+					<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cuodo....</p>
+					<span class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></span>
+					<a href="badges.html" data-toggle="tooltip" data-placement="top" data-original-title="Badge Level" class="badge_list_1"><img src="img/badges/badge_2.svg" width="15" height="15" alt=""></a>
+					<ul>
+						<li><a href="#0" onclick="onHtmlClick('Doctors', 1)" class="btn_listing">View on Map</a></li>
+						<li><a href="javascript:showRoadMap(1);" >Directions</a></li>
+						<li><a href="detail-page-2.html">Book now</a></li>
+					</ul>
+				</div>
+				<!-- /strip_list -->
+
+				<div class="strip_list">
+					<a href="#0" class="wish_bt"></a>
+					<figure>
+						<a href="detail-page-2.html"><img src="img/doctor_listing_3.jpg" alt=""></a>
+					</figure>
+					<small>Pediatrician</small>
+					<h3>Dr. Bonebrake</h3>
+					<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cuodo....</p>
+					<span class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></span>
+					<a href="badges.html" data-toggle="tooltip" data-placement="top" data-original-title="Badge Level" class="badge_list_1"><img src="img/badges/badge_3.svg" width="15" height="15" alt=""></a>
+					<ul>
+						<li><a href="#0" onclick="onHtmlClick('Doctors', 2)" class="btn_listing">View on Map</a></li>
+						<li><a href="javascript:showRoadMap(2);">Directions</a></li>
+						<li><a href="detail-page-2.html">Book now</a></li>
+					</ul>
+				</div>
+				<!-- /strip_list -->
+
+				<div class="strip_list">
+					<a href="#0" class="wish_bt"></a>
+					<figure>
+						<a href="detail-page-2.html"><img src="img/doctor_listing_4.jpg" alt=""></a>
+					</figure>
+					<small>Psicologist</small>
+					<h3>Dr. Everhart</h3>
+					<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cuodo....</p>
+					<span class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></span>
+					<a href="badges.html" data-toggle="tooltip" data-placement="top" data-original-title="Badge Level" class="badge_list_1"><img src="img/badges/badge_4.svg" width="15" height="15" alt=""></a>
+					<ul>
+						<li><a href="#0" onclick="onHtmlClick('Doctors', 1)" class="btn_listing">View on Map</a></li>
+						<li><a href="javascript:showRoadMap(3);">Directions</a></li>
+						<li><a href="detail-page-2.html">Book now</a></li>
+					</ul>
+				</div>
+				<!-- /strip_list_map -->
+				
+				<p class="text-center add_top_30"><a href="#0"><strong>Load more</strong></a></p>
+			</div>
+			<!-- /content-left-->
+
+			<div class="col-lg-7 map-right Fixed" style="width: 100%;height: 500px;overflow: hidden;margin:0;font-family:'微软雅黑';">
+				<div id="map_listing"></div>
+				<!-- map-->
+			</div>
+			<!-- /map-right-->
+			
+		</div>
+		<!-- /row-->
+	</div>
+	<!-- /container-fluid -->
+	</div>
+	<!-- page -->
+
+	<!-- COMMON SCRIPTS -->
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/common_scripts.min.js"></script>
+	<script src="assets/validate.js"></script>
+	<script src="js/functions.js"></script>
+    
+    <!-- SPECIFIC SCRIPTS -->
+   <!-- <script src="http://ditu.google.cn/maps/api/js?key=AIzaSyCoz993id_Qq7AcfaoVzviC6swgvQRixuQ"></script>
+    <script src="js/map_listing.js"></script>
+    <script src="js/infobox.js"></script> -->
+	<script src="js/jquery.selectbox-0.2.js"></script>
+	<script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=z94wG7S4NtZGTLsl74xSzeo6mV8bE5rU"></script>
+	<script>
+		$(".selectbox").selectbox();
+	</script>
+	<script type="text/javascript">
+		$('.map-right').css({"height": $('#page').height() - 60 + "px", "padding-top" : "60px"});
+		
+		// 百度地图API功能
+		var map = new BMap.Map("map_listing");
+		var point = new BMap.Point(121.507152,31.239719);
+		map.centerAndZoom(point,12);
+
+		var branches = [
+			'上海市浦东新区花园石桥路33号花旗集团大厦主楼',
+			'中国上海市古北路1078号黄金豪园金座1楼102室',
+			'中国上海市四川北路1500号',
+			'中国上海市南京西路762号'
+		];
+
+		var branchPoints = [];
+
+		var myGeo = new BMap.Geocoder();
+
+		var driving = new BMap.DrivingRoute(map, { 
+				renderOptions: { 
+					map: map, 
+					autoViewport: true 
+				}
+			});
+
+		for(let i=0;i<branches.length;i++){
+			showBranchInMap(branches[i]);
+		}
+
+		var customerLocation = new BMap.Marker(new BMap.Point(121.514152,31.263719), {
+			// 指定Marker的icon属性为Symbol
+			icon: new BMap.Symbol(BMap_Symbol_SHAPE_POINT, {
+				scale: 1,//图标缩放大小
+				fillColor: "blue",//填充颜色
+				fillOpacity: 0.8//填充透明度
+			})
+		});
+		customerLocation.setAnimation(BMAP_ANIMATION_BOUNCE);
+		map.addOverlay(customerLocation);
+
+		function showBranchInMap(address){
+			myGeo.getPoint(address, function(point){
+				if (point) {
+					console.log('地理经度 -> ' + point.lng)
+					console.log('地理纬度 -> ' + point.lat)
+					branchPoints.push(point);
+					addMarker(point);
+				}else{
+					alert("您选择地址没有解析到结果!");
+				}
+			});
+		}
+		
+		function addMarker(point){
+		  var marker = new BMap.Marker(point);
+		  map.addOverlay(marker);
+		}
+		
+		function showRoadMap(branchIndex){
+			driving.clearResults();
+			driving.search(customerLocation, branchPoints[branchIndex]);
+		}
+		
+	</script>
+
+</body>
+
+</html>
